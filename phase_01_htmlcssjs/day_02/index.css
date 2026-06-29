@@ -1,0 +1,50 @@
+#container{
+    border: 2px solid black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#formDiv{
+    /* border: 2px solid green; */
+    height: 300px;
+    width: 30%;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+#formDiv div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input{
+    margin-bottom: 5px;
+}
+
+#carDiv{
+    border: 2px solid red;
+    height: 100%;
+    width: 60%;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+button{
+    padding: 10px;
+}
+
+img{
+    height: 150px;
+    width: 100px;
+}
+
+.card{
+    width: 130px;
+    height: 250px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
